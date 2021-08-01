@@ -1,0 +1,36 @@
+.bg{
+    &-form{
+        @include set-background($bg__form-img,0,"center","cover","scroll");
+    }
+}
+.border{
+    &-light-brw{
+        border-color: $color__light-brw!important;
+    }
+}
+.login{
+    &-form{
+        @include set-background($bg__login-img,0,"top left","cover","fixed");
+    }
+}
+.opacity{
+    &-8{
+        opacity: 0.8;
+    }
+    &-9{
+        opacity: 0.9;
+    }
+}
+.register{
+    &-form{
+        @extend .login-form;
+    }
+}
+.text{
+    &-light-brw{
+        color: $color__light-brw!important;
+    }
+}
+textarea{
+    resize: none;
+}

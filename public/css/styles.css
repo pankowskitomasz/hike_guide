@@ -26,6 +26,48 @@ body, html {
   min-height: 100vh;
 }
 
+/* line 2, ../../sass/partials/_modules.scss */
+.bg-form {
+  background-attachment: scroll;
+  background-image: url(../img/form.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 7, ../../sass/partials/_modules.scss */
+.border-light-brw {
+  border-color: #837870 !important;
+}
+
+/* line 12, ../../sass/partials/_modules.scss */
+.login-form, .register-form {
+  background-attachment: fixed;
+  background-image: url(../img/login.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 17, ../../sass/partials/_modules.scss */
+.opacity-8 {
+  opacity: 0.8;
+}
+/* line 20, ../../sass/partials/_modules.scss */
+.opacity-9 {
+  opacity: 0.9;
+}
+
+/* line 30, ../../sass/partials/_modules.scss */
+.text-light-brw {
+  color: #837870 !important;
+}
+
+/* line 34, ../../sass/partials/_modules.scss */
+textarea {
+  resize: none;
+}
+
 /* line 31, ../../sass/partials/_mixins.scss */
 .error-s1 {
   background-attachment: fixed;
