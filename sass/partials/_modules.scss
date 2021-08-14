@@ -1,11 +1,61 @@
 .bg{
+    &-contact-short{
+        @include set-background($bg__contact-short-img,0,"center","cover","scroll");
+    }
+    &-experience-short{
+        @include set-background($bg__experience-short-img,0,"center","cover","scroll");
+    }
+    &-explore{
+        @include set-background($bg__explore-img,0,"center right","cover","scroll");
+    }
+    &-footer{
+        @include set-background($bg__footer-img,0,"center top","cover","scroll");
+    }
     &-form{
         @include set-background($bg__form-img,0,"center","cover","scroll");
+    }
+    &-hike{
+        @include set-background($bg__hike-img,0,"left bottom","contain","scroll");
+        background-repeat: no-repeat;
+    }
+    &-home{
+        &-cover{
+            @include set-background($bg__home-cover-img,0,"top","cover","scroll");
+            background-repeat: no-repeat;
+        }
+        @include set-background($bg__home-img,0,"left top","cover","scroll");
+    }    
+    &-light-brw{
+        background-color: $color__light-brw!important;
+    }
+    &-orange{
+        color: $color__orange!important;
+    }
+    &-orange-light{
+        color: $color__orange-light!important;
+    }
+    &-review{
+        @include set-background($bg__review-img,0,"center right","contain","scroll");
+        background-repeat: no-repeat;
+    }
+    &-services{
+        &-desc{
+            @include set-background($bg__services-desc-img,0,"center","cover","scroll");
+        }
+        &-ext{
+            @include set-background($bg__services-ext-img,0,"center","cover","scroll");
+        }
     }
 }
 .border{
     &-light-brw{
         border-color: $color__light-brw!important;
+    }
+    &-orange{
+        border-color: $color__orange!important;
+    }
+    &-orange-light{
+        border-color: $color__orange-light!important;
     }
 }
 .login{
@@ -30,7 +80,26 @@
     &-light-brw{
         color: $color__light-brw!important;
     }
+    &-orange{
+        color: $color__orange!important;
+    }
+    &-orange-light{
+        color: $color__orange-light!important;
+    }
 }
 textarea{
     resize: none;
+}
+
+@media all and (max-width:767px){
+    .bg{
+        &-md-white{
+            background-color: #fff!important;
+        } 
+    }
+    .border{
+        &-md-light-brw{
+            border-color: $color__light-brw!important;
+        }
+    }
 }

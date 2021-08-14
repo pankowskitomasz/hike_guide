@@ -29,7 +29,7 @@ class App extends Component{
                 <Switch>
                     {switchContent}
                 </Switch>   
-                <Footer privacyLink={{name:"Privacy Policy",href:"/privacy"}}/>        
+                <Footer privacyLink={{name:"Privacy Policy",href:"/privacy"}} menuItems={this.state.routes}/>        
             </BrowserRouter>
         );
     }
