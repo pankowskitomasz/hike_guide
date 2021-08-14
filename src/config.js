@@ -12,7 +12,7 @@ import Services from "./views/services";
 const appCfg = {
     routes:[
         {navItem:true, exact:true, path:"/",name:"Home",view:<Home/>},  
-        {navItem:true, exact:true, path:"/about",name:"About",view:<About/>}, 
+        {navItem:true, exact:true, path:"/story",name:"Our Story",view:<About/>}, 
         {navItem:true, exact:true, path:"/experience",name:"Experience",view:<Experience/>}, 
         {navItem:true, exact:true, path:"/services",name:"Services",view:<Services/>}, 
         {navItem:true, exact:true, path:"/login",name:<span className="fa fa-user-circle-o"></span>,view:<Login backLink={{name:" Register now!",href:"/register"}}/>}, 
