@@ -25,11 +25,17 @@ const appCfg = {
 };
 
 const APP_LINKS = {
-    messages: "message.php",
-    users: "user.php"
+    messages: "http://localhost/hike_guide/public/message.php",
+    register: "register.php",
+    users: "http://localhost/hike_guide/public/user.php"
+};
+
+const msgCfg = {
+    pageSize: 10
 };
 
 export {
     appCfg,
-    APP_LINKS
+    APP_LINKS,
+    msgCfg
 }
