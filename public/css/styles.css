@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Courgette";
+  src: url("../fonts/Courgette-Regular.ttf");
+}
 /* line 1, ../../sass/partials/_layout.scss */
 * {
   box-sizing: border-box;
@@ -175,17 +179,23 @@ body, html {
 }
 
 /* line 90, ../../sass/partials/_modules.scss */
+h1, h2, h3, h4, h5, h6, .nav-link {
+  font-family: "Courgette";
+  letter-spacing: 1px;
+}
+
+/* line 94, ../../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
 @media all and (max-width: 767px) {
-  /* line 96, ../../sass/partials/_modules.scss */
+  /* line 100, ../../sass/partials/_modules.scss */
   .bg-md-white {
     background-color: #fff !important;
   }
 
-  /* line 101, ../../sass/partials/_modules.scss */
+  /* line 105, ../../sass/partials/_modules.scss */
   .border-md-light-brw {
     border-color: #837870 !important;
   }
