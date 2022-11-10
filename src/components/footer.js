@@ -41,7 +41,7 @@ class Footer extends Component{
                         </Col>
                         <Col xs={12} sm={4} lg={3} className="text-center text-lg-end">
                             <h6 className="text-orange">Menu</h6>
-                            <ul class="list-unstyled">
+                            <ul className="list-unstyled">
                                 {menuContent}
                             </ul>
                         </Col>
@@ -69,7 +69,7 @@ class Footer extends Component{
                     <Row className="mx-0 text-center w-100 border-top border-orange">
                         <Col xs={10} className="mx-auto">
                             <small className="my-0 text-white">
-                                Copyright &copy; 2021 Tomasz Pankowski. All rights reserved. 
+                                Copyright &copy; 2021-2022 Tomasz Pankowski. All rights reserved. 
                                 <Link to={this.props.privacyLink.href} className="text-white text-decoration-none ms-1">
                                      {this.props.privacyLink.name}
                                 </Link>
